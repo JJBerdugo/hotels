@@ -2,81 +2,128 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Jost:wght@300&family=Pacifico&display=swap");
 body {
-  margin: 0% 10% 0% 10%;
-  padding: 0;
+    margin: 0% 10% 0% 10%;
+    padding: 0;
+    font-family: "Jost", sans-serif;
 }
 
 .back-img {
-  width: 137.5%;
-  position: absolute;
-  z-index: -1;
-  margin-left: -25%;
+    width: 137.6%;
+    position: absolute;
+    z-index: -1;
+    margin-left: -25%;
 }
 
 header {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
 }
 
 .title {
-  position: absolute;
-  color: #1b273f;
-  font-size: 140px;
-  font-family: "Pacifico", cursive;
-  margin: 0;
+    position: absolute;
+    color: #1b273f;
+    font-size: 140px;
+    font-family: "Pacifico", cursive;
+    margin: 0;
 }
 
 .subtitle {
-  padding-top: 50px;
-  color: #1b273f;
-  font-size: 50px;
-  font-family: "Dancing Script", cursive;
-  margin-bottom: 65px;
+    padding-top: 40px;
+    color: #1b273f;
+    font-size: 50px;
+    font-family: "Dancing Script", cursive;
+    margin-bottom: 30px;
 }
 
 .text {
-  color: #1b273f;
-  font-size: 25px;
-  font-family: "Jost", sans-serif;
-  margin: 0;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Jost", sans-serif;
+    margin: 0;
 }
 
 .data img {
-  height: 25px;
+    height: 25px;
 }
 
 .data {
-  color: #1b273f;
-  font-family: "Jost", sans-serif;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
+    color: #1b273f;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .data-cube {
-  background-color: #1b273f;
-  height: 30px;
-  width: 150px;
-  opacity: 35%;
-  display: flex;
-  border-bottom: 1px #1b273f solid;
+    background-color: #1b273f;
+    height: 30px;
+    width: 150px;
+    opacity: 35%;
+    display: flex;
+    border: 5px solid #1b273f;
+}
+
+.data-cube:hover {
+    opacity: 65%;
 }
 
 .clear {
-  margin-top: -60px;
-  display: flex;
-  align-items: flex-end;
-  background-color: #1b273f;
-  height: 150px;
-  width: 30px;
-  opacity: 35%;
-  margin-left: 800px;
+    margin-top: -60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #1b273f;
+    height: 150px;
+    width: 40px;
+    opacity: 35%;
+    margin-left: 800px;
+    padding-bottom: 10px;
 }
 
 .clear img {
-  height: 25px;
-}/*# sourceMappingURL=index.css.map */
+    height: 25px;
+}
+
+/* SECTION CARDS <main> */
+main {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 125.2%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: -12.6%;
+}
+.card {
+    position: relative;
+    width: 490.5px;
+    height: 288px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0;
+    background-color: rgb(188, 130, 88, 0.3);
+    border: 11px solid #ffffff;
+    text-shadow: #1b273f;
+}
+
+.card img {
+    position: absolute;
+    width: 490.5px;
+    height: 288px;
+    z-index: -1;
+}
+
+.habit_precio {
+    display: flex;
+    flex-direction: row;
+}
